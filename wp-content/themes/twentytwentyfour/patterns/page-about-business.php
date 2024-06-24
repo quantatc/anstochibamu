@@ -1,3 +1,14 @@
+<?php
+/**
+ * Title: About
+ * Slug: twentytwentyfour/page-about-business
+ * Categories: twentytwentyfour_page
+ * Keywords: starter
+ * Block Types: core/post-content
+ * Post Types: page, wp_template
+ * Viewport width: 1400
+ */
+?>
 
 <!-- wp:pattern {"slug":"twentytwentyfour/text-title-left-image-right"} /-->
 <!-- wp:pattern {"slug":"twentytwentyfour/text-project-details"} /-->

@@ -1,0 +1,191 @@
+0000.001 (0) Opened log file at time: Mon, 24 Jun 2024 18:30:54 +0000 on http://localhost/anstochibamu
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.2.18 (apache2handler, Windows NT ANSTO 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.3.0 (max packet size=67108864) WPLANG: en_ZA Server: Apache/2.4.59 (Win64) PHP/8.2.18 mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.7M | 4M) multisite: N openssl: OpenSSL 3.0.13 30 Jan 2024 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 7757.6 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Semaphore (fd, wp_options) being initialised
+0000.014 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.016 (0) Set semaphore last lock (fd) time to 2024-06-24 18:30:54
+0000.016 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=fe9aee727401, file_nonce=fe9aee727401 begun at=1719253854 (0s ago), job type=backup
+0000.021 (0) Scheduling a resumption (1) after 300 seconds (1719254154) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.049 (0) Creation of backups of directories: beginning
+0000.054 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.714 (0) Total entities for the zip file: 252 directories, 1483 files (0 skipped as non-modified), 27.2 MB
+0000.771 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.827 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.880 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.932 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.990 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.044 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.097 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.154 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.216 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.284 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.286 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.9 MB, 1483 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.420 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 1100 files added (on-disk size: 7725.2 KB)
+0003.472 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 1200 files added (on-disk size: 7725.2 KB)
+0003.526 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 1300 files added (on-disk size: 7725.2 KB)
+0003.578 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.tmp: 1400 files added (on-disk size: 7725.2 KB)
+0004.078 (0) Creating zip file manifest (backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.list-temp.tmp)
+0004.088 (0) Successfully created zip file manifest (size: 128223)
+0004.174 (0) Created plugins zip (0) - 8700.1 KB in 4.1 s (2114 KB/s) (sha1: f81e38faf415dafdfe6aae28f3036d579906157b, sha256: 973914d99855f27ec3017c4e20847df868f5a8c53fa1e870b76f8d0175b3cf8b)
+0004.178 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.179 (0) No remote despatch: user chose no remote backup service
+0004.180 (0) Recording as successfully uploaded: backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip
+0004.181 (0) Deleting zip manifest (backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip.list.tmp)
+0004.184 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.185 (0) Number of backup sets in history: 0; groups (db): 1
+0004.186 (0) Number of backup sets in history: 0; groups (files): 1
+0004.186 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0004.192 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.305 (0) Total entities for the zip file: 39 directories, 291 files (0 skipped as non-modified), 12.1 MB
+0004.359 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.420 (0) Zip: backup_2024-06-24-2030_Tafara_fe9aee727401-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.917 (0) Creating zip file manifest (backup_2024-06-24-2030_Tafara_fe9aee727401-themes.zip.list-temp.tmp)
+0006.924 (0) Successfully created zip file manifest (size: 20630)
+0007.036 (0) Created themes zip (0) - 11162 KB in 2.8 s (3930.4 KB/s) (sha1: 5e842e4747b605ac007dfa545fa2952898b85fdd, sha256: df4c28243104b153003c230e2f66338e451294ea02a80fbbdc02de3a412e314e)
+0007.040 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.041 (0) No remote despatch: user chose no remote backup service
+0007.042 (0) Recording as successfully uploaded: backup_2024-06-24-2030_Tafara_fe9aee727401-themes.zip
+0007.043 (0) Deleting zip manifest (backup_2024-06-24-2030_Tafara_fe9aee727401-themes.zip.list.tmp)
+0007.045 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.046 (0) Number of backup sets in history: 0; groups (db): 1
+0007.047 (0) Number of backup sets in history: 0; groups (files): 1
+0007.047 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0007.053 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.054 (0) Looking for candidates to backup in: C:\wamp64\www\anstochibamu/wp-content/uploads
+0007.055 (0) finding files: 2024: adding to list (1)
+0007.055 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.061 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0007.072 (0) Did not find any files in the zip: backup_2024-06-24-2030_Tafara_fe9aee727401-uploads.zip.tmp
+0007.077 (0) Created uploads zip (0) - 0.2 KB in 0 s (12.8 KB/s) (sha1: 6bf91e077e73726f708d73e8056b672cf74feb15, sha256: afd1780b335924145cc1f58fa24b963440c4dc22cfd153639b9d9b96709fed7c)
+0007.080 (0) No backup of mu-plugins: excluded by user's options
+0007.081 (0) Beginning backup of other directories found in the content directory (index: 0)
+0007.082 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0007.083 (0) Looking for candidates to backup in: C:\wamp64\www\anstochibamu/wp-content
+0007.084 (0) finding files: index.php: adding to list (1)
+0007.085 (0) finding files: languages: adding to list (2)
+0007.085 (0) finding files: plugins: skipping: this is the plugins directory
+0007.086 (0) finding files: themes: skipping: this is the themes directory
+0007.087 (0) finding files: updraft: skipping: this is the updraft directory
+0007.087 (0) finding files: upgrade: skipping: excluded by options
+0007.088 (0) finding files: uploads: skipping: this is the uploads directory
+0007.117 (0) Total entities for the zip file: 3 directories, 77 files (0 skipped as non-modified), 3.3 MB
+0007.968 (0) Creating zip file manifest (backup_2024-06-24-2030_Tafara_fe9aee727401-others.zip.list-temp.tmp)
+0007.971 (0) Successfully created zip file manifest (size: 4545)
+0007.985 (0) Created others zip (0) - 770 KB in 0.9 s (862.9 KB/s) (sha1: 4fbc0cf16eb1c76c1111275d6056c3f9ddbcd05d, sha256: 3c292d94417a2b75180e5b155ab35d96278635076ebb088eab94cb7f3447eb10)
+0008.054 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.054 (0) No remote despatch: user chose no remote backup service
+0008.055 (0) Recording as successfully uploaded: backup_2024-06-24-2030_Tafara_fe9aee727401-others.zip
+0008.057 (0) Deleting zip manifest (backup_2024-06-24-2030_Tafara_fe9aee727401-others.zip.list.tmp)
+0008.058 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.059 (0) Number of backup sets in history: 0; groups (db): 1
+0008.060 (0) Number of backup sets in history: 0; groups (files): 1
+0008.060 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0008.068 (0) Saving backup status to database (elements: 8)
+0008.069 (0) Beginning creation of database dump (WordPress DB)
+0008.070 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0008.072 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe
+0008.318 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1544 bytes total)
+0008.320 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe"
+0008.365 (0) Table wp_options: Total expected rows (via COUNT): 181
+0008.367 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.439 (0) Table wp_options: Rows added in this batch (next record: 196): 177 (uncompressed bytes in this segment=882434) in 0.09 seconds
+0008.447 (0) Table wp_options: finishing file(s) (2, 236.9 KB)
+0008.456 (0) Table wp_users: Total expected rows (via COUNT): 1
+0008.457 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.459 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1400) in 0.00 seconds
+0008.465 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0008.474 (0) Table wp_usermeta: Total expected rows (via COUNT): 17
+0008.475 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.477 (0) Table wp_usermeta: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1620) in 0.01 seconds
+0008.483 (0) Table wp_usermeta: finishing file(s) (2, 0.9 KB)
+0008.493 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0008.495 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0008.502 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0008.510 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0008.511 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.513 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2125) in 0.01 seconds
+0008.519 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0008.529 (0) Table wp_links: Total expected rows (via COUNT): 0
+0008.531 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.00 seconds
+0008.537 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0008.546 (0) Table wp_postmeta: Total expected rows (via COUNT): 2
+0008.547 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.549 (0) Table wp_postmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=782) in 0.01 seconds
+0008.556 (0) Table wp_postmeta: finishing file(s) (2, 0.4 KB)
+0008.565 (0) Table wp_posts: Total expected rows (via COUNT): 5
+0008.565 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.568 (0) Table wp_posts: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=10413) in 0.01 seconds
+0008.575 (0) Table wp_posts: finishing file(s) (2, 3 KB)
+0008.583 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0008.585 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=690) in 0.00 seconds
+0008.592 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0008.601 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 1
+0008.602 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.604 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=910) in 0.01 seconds
+0008.611 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0008.621 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0008.623 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.01 seconds
+0008.630 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0008.638 (0) Table wp_terms: Total expected rows (via COUNT): 1
+0008.640 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.642 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=728) in 0.01 seconds
+0008.648 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0008.649 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\wamp64\www\anstochibamu/wp-content/updraft/backup_2024-06-24-2030_Tafara_fe9aee727401-db.gz (line 1925, C:\wamp64\www\anstochibamu\wp-content\plugins\updraftplus\backup.php)
+0008.652 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_options.table.tmpr197.gz (1/12/fopen): adding to final database dump
+0008.661 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0008.662 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0008.663 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0008.664 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_usermeta.table.tmpr18.gz (5/12/fopen): adding to final database dump
+0008.665 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0008.665 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0008.666 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0008.667 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0008.669 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0008.669 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0008.670 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0008.671 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_postmeta.table.tmpr3.gz (13/12/fopen): adding to final database dump
+0008.672 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0008.673 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_posts.table.tmpr6.gz (15/12/fopen): adding to final database dump
+0008.674 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0008.675 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0008.676 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0008.676 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_term_taxonomy.table.tmpr2.gz (19/12/fopen): adding to final database dump
+0008.677 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0008.678 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0008.679 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0008.680 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_terms.table.tmpr2.gz (23/12/fopen): adding to final database dump
+0008.680 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0008.685 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db.gz: finished writing out complete database file (245.4 KB)
+0008.702 (0) Total database tables backed up: 12 (backup_2024-06-24-2030_Tafara_fe9aee727401-db.gz, size: 251453, sha1: d741c75aaaa5cbd2cf9f806afc3717c3577e87b9, sha256: a73fb7c4fd8ff64178e8f04398dd346914cc8473c9758416497073427575d7ad)
+0008.708 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-plugins.zip: plugins: This file has already been successfully uploaded
+0008.708 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-themes.zip: themes: This file has already been successfully uploaded
+0008.709 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.710 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-others.zip: others: This file has already been successfully uploaded
+0008.710 (0) backup_2024-06-24-2030_Tafara_fe9aee727401-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.711 (0) Saving backup history. Total backup size: 20.4 MB
+0008.713 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0008.715 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.716 (0) No remote despatch: user chose no remote backup service
+0008.717 (0) Recording as successfully uploaded: backup_2024-06-24-2030_Tafara_fe9aee727401-uploads.zip
+0008.719 (0) Recording as successfully uploaded: backup_2024-06-24-2030_Tafara_fe9aee727401-db.gz
+0008.722 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.723 (0) Number of backup sets in history: 1; groups (db): 1
+0008.724 (0) Examining (for databases) backup set with group_id=0, nonce=fe9aee727401, datestamp=1719253854 (Jun 24 2024 18:30:54)
+0008.725 (0) This backup set is the backup set just made, so will not be deleted.
+0008.725 (0) Number of backup sets in history: 1; groups (files): 1
+0008.726 (0) Examining (for files) backup set with nonce=fe9aee727401, datestamp=1719253854 (Jun 24 2024 18:30:54)
+0008.726 (0) This backup set is the backup set just made, so will not be deleted.
+0008.727 (0) This backup set is the backup set just made, so will not be deleted.
+0008.727 (0) This backup set is the backup set just made, so will not be deleted.
+0008.727 (0) This backup set is the backup set just made, so will not be deleted.
+0008.727 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.728 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.730 (0) Resume backup (fe9aee727401, 0): finish run
+0008.732 (0) Decremented the semaphore (fd) by 1
+0008.733 (0) Semaphore (fd) unlocked
+0008.734 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.737 (0) No email will/can be sent - the user has not configured an email address.
+0008.738 (0) The backup succeeded and is now complete
